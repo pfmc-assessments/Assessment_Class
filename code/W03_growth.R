@@ -75,8 +75,7 @@ summary(vbgf.nls2, cor=TRUE)$correlation %>%
 
 
 ## ---- echo=FALSE-----------------------------------------------------------------------------------------------------------
-plot(canary.bio2$Age[!is.na(canary.bio2$Age)], resid(vbgf.nls2),
-     xlab = 'Age')
+plot(fitted(vbgf.nls2), resid(vbgf.nls2))
 abline(h=0)
 
 
@@ -131,20 +130,16 @@ ggplot(canary.bio2) +
   geom_point(aes(x = Age, y = Length_cm, col = Sex), alpha = 0.25) +
   geom_line(aes(x = Age, y = nls.f[1] + (nls.f[2] - nls.f[1]) *
                   (1-exp(-nls.f[3]*(Age-1))) / 
-                  (1-exp(-nls.f[3]*24)), linetype='1'), col = 'blue') +
+                  (1-exp(-nls.f[3]*24)), linetype='normal'), col = 'blue') +
   geom_line(aes(x = Age, y = nls.m[1] + (nls.m[2] - nls.m[1]) *
                   (1-exp(-nls.m[3]*(Age-1))) / 
-                  (1-exp(-nls.m[3]*24)), linetype='1'), col = 'red') +
+                  (1-exp(-nls.m[3]*24)), linetype='normal'), col = 'red') +
   geom_line(aes(x = Age, y = optim.f[1] + (optim.f[2] - optim.f[1]) *
                   (1-exp(-optim.f[3]*(Age-1))) / 
-                  (1-exp(-optim.f[3]*24)), linetype='2'), col = 'blue') +
+                  (1-exp(-optim.f[3]*24)), linetype='lognormal'), col = 'blue') +
   geom_line(aes(x = Age, y = optim.m[1] + (optim.m[2] - optim.m[1]) *
                   (1-exp(-optim.m[3]*(Age-1))) / 
-                  (1-exp(-optim.m[3]*24)), linetype='2'), col = 'red') +
+                  (1-exp(-optim.m[3]*24)), linetype='lognormal'), col = 'red') +
   scale_color_manual(values = c('F' = 'blue', 'M' = 'red')) +
-  # scale_linetype_identity(name = "Model fit",
-  #                         breaks = c("solid", "dotted"),
-  #                         labels = c("normal", "lognormal"),
-  #                         guide = "legend") +
   NULL
 
