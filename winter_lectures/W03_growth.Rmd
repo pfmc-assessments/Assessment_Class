@@ -1,0 +1,284 @@
+---
+title:  "Estimating growth"
+subtitle: "Fish 576, Week 3"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: ["xaringan-themer.css", "slides-style.css"]
+    lib_dir: libs
+    nature:
+      ratio: '4:3'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc( (%current% - 1) / (%total% - 1) * 100%);">
+          </div>
+        </div>`
+---
+layout: true
+
+.footnote[U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service]
+
+
+```{r setup, include=FALSE, purl=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, fig.retina=3)
+options(htmltools.dir.version = FALSE)
+```
+
+```{r, include=FALSE}
+library(ggplot2)
+library(magrittr)
+theme_set(theme_classic(base_size = 16))
+```
+
+
+```{r xaringan-tile-view, echo=FALSE, purl=FALSE}
+# this gives you a tile navigation if you type "O" at any time
+xaringanExtra::use_tile_view()
+
+```
+
+---
+
+## Why estimate growth?
+  
+Ageing fish takes time. Measuring fish is fast.
+
+---
+  
+## Von Bertalanffy growth function
+  
+$$\tfrac{dL}{dt} = k(L_\infty - L)$$
+--
+    
+* $k$ is the "Brody growth coefficient"
+  
+* $L_\infty$ is the asymptotic size as the individual gets old
+  
+--
+    
+* The solution to this differential equation, up to a constant, is:
+    
+$$L(t) = L_\infty\left[1-e^{-k(t-t_0)}\right]$$
+
+* $t_0$ is the x-intercept.
+      
+---
+
+Let's look at the Rex sole data.
+
+```{r, eval=FALSE}
+library(nwfscSurvey)
+rex.bio <- PullBio.fn(Name = "rex sole", 
+                      SurveyName = "NWFSC.Combo", 
+                      SaveFile = FALSE)
+```
+
+```{r, include=FALSE, purl=FALSE}
+library(here)
+load(here('code/Bio_All_NWFSC.Combo_2023-01-19.rda'))
+rex.bio <- Data
+```
+
+```{r growth_scatter, fig.show='hide'}
+ggplot(rex.bio) +
+  geom_point(aes(x = Age, y = Length_cm, col = Sex), 
+             alpha = 0.25) 
+```
+
+---
+
+```{r, ref.label='growth_scatter', echo=FALSE, purl=FALSE}
+
+```
+
+---
+
+## What to do with unsexed fish?
+
+--
+
+```{r}
+unsexed.index <- which(rex.bio$Sex=='U' & !is.na(rex.bio$Age))
+set.seed(20398)
+males <- sample(unsexed.index, 
+                size = floor(length(unsexed.index)/2), 
+                replace = FALSE)
+rex.bio2 <- rex.bio
+rex.bio2$Sex[males] <- 'M'
+rex.bio2$Sex[setdiff(unsexed.index, males)] <- 'F'
+```
+
+---
+
+## Fit the VBGF using `nls()`. 
+    
+```{r}
+rex.bio2$Sex <- factor(rex.bio2$Sex)
+
+vbgf.nls <- nls(Length_cm ~ linf[Sex]*
+                  (1-exp(-k[Sex]*(Age-t0[Sex]))), 
+                data = rex.bio2, 
+                start = list(linf = rep(40,2), 
+                             k = rep(0.2,2), 
+                             t0 = rep(1,2)))
+```
+
+---
+      
+```{r}
+summary(vbgf.nls)
+```
+    
+---
+      
+```{r}
+summary(vbgf.nls, cor=TRUE)$correlation %>%
+  round(2)
+```
+
+--
+
+Correlation between $k$ and $L_\infty$ is very high!
+
+---
+
+## Schnute reparameterization
+
+Choose ages $a_1$ and $a_2$ that bracket the well-sampled range of ages. Then:
+
+$$L(t) = L_{a_1} + (L_{a_2}-L_{a_1})\frac{1-e^{-k(t-a_1)}}{1-e^{-k(a_2-a_1)}}$$
+--
+
+* $k$ defined as previously
+
+* $L_{a_1}$ and $L_{a_2}$ are estimated instead of $L_\infty$ and $t_0$
+
+---
+
+Choose $a_1=1$, $a_2=20$.
+
+```{r}
+vbgf.nls2 <- nls(Length_cm ~ la1[Sex] + (la2[Sex] - la1[Sex]) * 
+                   (1-exp(-k[Sex]*(Age-1))) / 
+                   (1-exp(-k[Sex]*19)), 
+                 data = rex.bio2, 
+                 start = list(la1 = rep(12,2), 
+                              la2 = rep(35,2), 
+                              k = rep(0.2,2)))
+```
+
+---
+
+```{r}
+summary(vbgf.nls2)
+```
+    
+---
+      
+```{r}
+summary(vbgf.nls2, cor=TRUE)$correlation %>%
+  round(2)
+```
+
+--
+
+Somewhat better
+
+--
+
+Note even though the estimates of k did not really change, and there is still substantial, though less, correlation between $L_{a_2}$ and $k$, this is the parameterization stock synthesis uses.
+
+---
+
+## Residuals 
+
+.pull-left-wide[
+```{r, echo=FALSE}
+plot(rex.bio2$Age[!is.na(rex.bio2$Age)], resid(vbgf.nls2),
+     xlab = 'Age')
+abline(h=0)
+```
+]
+
+--
+
+.pull-right-narrow[
+There is some fanning, especially between ages 0-10
+]
+
+---
+
+## Lognormal errors
+
+`nls()` assumes normal errors. We could try fitting 
+</br>
+`nls(log(L) ~ log(VBGF))`.
+
+What is wrong with this?
+
+--
+
+You will be fitting to the median length, not the mean. We need a log-normal bias correction. 
+
+Recall, if $\log(X)\sim N(\log(\mu), \sigma^2)$, then
+$$E[X] = \mu + \tfrac{\sigma^2}{2}$$
+
+To fit log normal errors to the *mean* length, we will need to write our own likelihood function.
+
+---
+
+## Lognormal errors
+
+```{r}
+vbgf.loglik <- function(log.pars, dat.m, dat.f, a1, a2) {
+  pars <- exp(log.pars)
+  
+  l.pred.m <- pars['la1.m'] + (pars['la2.m'] - pars['la1.m']) * 
+                   (1-exp(-pars['k.m']*(dat.m$Age - a1))) / 
+                   (1-exp(-pars['k.m']*(a2-a1)))
+  
+  l.pred.f <- pars['la1.f'] + (pars['la2.f'] - pars['la1.f']) * 
+                   (1-exp(-pars['k.f']*(dat.f$Age - a1))) / 
+                   (1-exp(-pars['k.f']*(a2-a1)))
+  
+  nll <- -dlnorm(x = c(dat.m$Length_cm, dat.f$Length_cm), 
+                meanlog = log(c(l.pred.m, l.pred.f)) -
+                  pars['cv']^2/2, 
+                sdlog = pars['cv'], log = TRUE) %>%
+    sum()
+  return(nll)
+}
+
+```
+
+---
+
+## Fit using `optim()`
+```{r}
+dat.m <- dplyr::filter(rex.bio2, Sex == 'M', !is.na(Age))
+dat.f <- dplyr::filter(rex.bio2, Sex == 'F', !is.na(Age))
+
+pars.init <- log(c(la1.m = 13, la1.f = 13, 
+                   la2.m = 35, la2.f = 38, 
+                   k.m = .15, k.f = .17, cv = .1))
+
+vbgf.optim <- optim(pars.init, vbgf.loglik, 
+                    dat.m = dat.m, dat.f = dat.f, 
+                    a1 = 1, a2 = 20)
+
+```
+
+---
+```{r, results='hold'}
+exp(vbgf.optim$par)[1:4]
+exp(vbgf.optim$par)[5:7]
+```
+--
+
+Can calculate SEs of *log*-estimates using option `hessian = TRUE`. 
+
+For SEs of model parameters, use delta method or MCMC.
+

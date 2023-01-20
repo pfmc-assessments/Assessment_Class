@@ -40,3 +40,7 @@ vignettes/*.pdf
 
 # exclude knitted pdfs
 *.pdf
+
+# exclude rdata files
+*.Rda
+*.Rdata
