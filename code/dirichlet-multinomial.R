@@ -2,18 +2,18 @@ library(here)
 library(r4ss)
 
 # Example
-
-l.skate <- SS_read('Q:/Assessments/Archives/LongnoseSkate/LongnoseSkate_2019/2_base_model')
-
-l.skate$dat$len_info |> View()
-unique(l.skate$dat$lencomp$FltSvy) # zeros do not have length comp data
-
-l.skate$dat$age_info
-unique(l.skate$dat$agecomp$FltSvy)
-
-l.skate$ctl$DoVar_adjust
-l.skate$ctl$dirichlet_parms
-l.skate$ctl$Variance_adjustment_list
+# 
+# l.skate <- SS_read('Q:/Assessments/Archives/LongnoseSkate/LongnoseSkate_2019/2_base_model')
+# 
+# l.skate$dat$len_info |> View()
+# unique(l.skate$dat$lencomp$FltSvy) # zeros do not have length comp data
+# 
+# l.skate$dat$age_info
+# unique(l.skate$dat$agecomp$FltSvy)
+# 
+# l.skate$ctl$DoVar_adjust
+# l.skate$ctl$dirichlet_parms
+# l.skate$ctl$Variance_adjustment_list
 
 
 copy_SS_inputs(dir.old = here('models/sensitivity_anal/5.7_Update_Selex_and_Biology/23.fix.M.males'),
@@ -63,7 +63,13 @@ dm_table <- matrix(0, nrow = n_dm_pars,
   as.data.frame()
 dm_table
 
-dm_table$PHASE <- rex$start$last_estimation_phase
+dm_table$PHASE <- r4ss:::get_last_phase(rex$ctl) + 1
+
+# increase last phase in starter file if necessary
+if(rex$start$last_estimation_phase < max(dm_table$PHASE)) {
+  rex$start$last_estimation_phase <- max(dm_table$PHASE)
+}
+
 dm_table$LO <- -5
 dm_table$HI <- 5
 dm_table$INIT <- 0
