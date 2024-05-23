@@ -4,7 +4,7 @@ This is a repository for the 2025 applied stock assessment course at the Univers
 
 ## How this repository works:
 
-This repository contains lectures and example code for both courses. [Something about it all being there or adding it as we go]
+This repository contains lectures, example code, and background reading materials for both courses. [Something about it all being there or adding it as we go]
 
 Please ensure you have a github handle and are subscribed to announcements under [discussions](https://github.com/okenk/Assessment_Class/discussions/categories/announcements). Github announcements will be our primary way of communicating with you as it allows students who drop the course to opt out, and students who start the course late to catch up on old communications. **Either check the github announcements regularly or ensure you are getting email alerts for new announcements.**
 

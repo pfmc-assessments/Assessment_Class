@@ -27,7 +27,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 # exclude knitted pdfs
-*.pdf
+winter_lectures/*.pdf
 # exclude rdata files
 *.Rda
 *.Rdata
