@@ -33,3 +33,5 @@ winter_lectures/*.pdf
 *.Rdata
 
 README.html
+# temporary MS Office files
+~$*
