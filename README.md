@@ -22,6 +22,15 @@ Feel free to also use discussions to communicate with your fellow classmates and
 
 Applied Stock Assessment I and II are a two-quarter applied stock assessment series offered in collaboration with stock assessment scientists in the Fishery Resource Analysis and Monitoring Division at the Northwest Fisheries Science Center. The first course provides a review of population dynamic modeling basics and stock assessment data types, and then focuses on the details of processing fishery and survey data for use in stock assessment and running Stock Synthesis (SS3) stock assessment models. The second course focuses on developing, running, evaluating and documenting the base and sensitivity Stock Synthesis (SS3) models required for a stock assessment update submitted to the Pacific Fishery Management Council (PFMC) for use in management.
 
+## Course format:
+
+This is a hybrid course, with in-person and virtual participation avaiable.
+
+## Scheduled course times: 
+
+Thursdays 9:00am-9:50am
+Fridays 11:00am-11:50am
+
 ## FISH 576: Applied Stock Assessment I
 
 Students will work as a team to:
