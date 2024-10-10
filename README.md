@@ -24,9 +24,9 @@ Applied Stock Assessment I and II are a two-quarter applied stock assessment ser
 
 ## Course format:
 
-This is a hybrid course, with in-person and virtual participation avaiable.
+This is a hybrid course, with in-person and virtual participation available.
 
-## Scheduled course times: 
+## Scheduled course times (subject to change based on participant schedules): 
 
 Thursdays 9:00am-9:50am and Fridays 11:00am-11:50am
 
