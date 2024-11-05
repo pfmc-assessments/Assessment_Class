@@ -28,7 +28,7 @@ This is a hybrid course, with in-person and virtual participation available.
 
 ## Scheduled course times (subject to change based on participant schedules): 
 
-Thursdays 9:00am-9:50am and Fridays 10:30am-11:20am
+Thursdays 9:00am-9:50am and Fridays 9:00am-9:50am
 
 ## FISH 576: Applied Stock Assessment I
 
