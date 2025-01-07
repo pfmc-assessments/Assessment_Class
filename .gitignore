@@ -31,7 +31,10 @@ winter_lectures/*.pdf
 # exclude rdata files
 *.Rda
 *.Rdata
-
 README.html
 # temporary MS Office files
 ~$*
+
+# old files of Kiva's
+winter_lectures/
+code/
