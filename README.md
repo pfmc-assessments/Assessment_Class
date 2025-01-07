@@ -1,10 +1,10 @@
 # FISH 576 & 577: Applied Stock Assessment I & II
 
-This is a repository for the 2025 applied stock assessment course at the University of Washington.
+This is a repository for the 2025 applied stock assessment course at the University of Washington. 
 
 ## How this repository works:
 
-This repository contains lectures, example code, and background reading materials for both courses. [Something about it all being there or adding it as we go]
+This repository contains lectures, example code, and background reading materials for both courses. Materials will be added as the course progresses.
 
 Please ensure you have a github handle and are subscribed to announcements under [discussions](https://github.com/okenk/Assessment_Class/discussions/categories/announcements). Github announcements will be our primary way of communicating with you as it allows students who drop the course to opt out, and students who start the course late to catch up on old communications. **Either check the github announcements regularly or ensure you are getting email alerts for new announcements.**
 
@@ -24,7 +24,7 @@ Applied Stock Assessment I and II are a two-quarter applied stock assessment ser
 
 ## Course format:
 
-This is a hybrid course, with in-person and virtual participation available.
+This is a hybrid course, with in-person and virtual participation available. Winter quarter, we will meet at UW in FSH 105. There is also a group meeting in person at Oregon State University. For online login information, contact the instructors.
 
 ## Scheduled course times (subject to change based on participant schedules): 
 
