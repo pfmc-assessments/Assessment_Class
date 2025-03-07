@@ -26,6 +26,11 @@ rm(singleSp)
 wdwCatch$CPHA <- wdwCatch$HAUL_WT_KG/wdwCatch$AREA_SWEPT_HA
 wdwCatch$Year <- as.numeric(substring(wdwCatch$PROJECT_CYCLE,7))
 table(wdwCatch$Year,round(wdwCatch$BEST_DEPTH_M,-1))
+boxplot(wdwCatch$BEST_DEPTH_M[wdwCatch$HAUL_WT_KG>0])
+wdwCatch[wdwCatch$HAUL_WT_KG>0 & wdwCatch$BEST_DEPTH_M>400,])
+boxplot(wdwCatch$CPHA[wdwCatch$HAUL_WT_KG>0],log="y")
+
+
 
 comboC <- wdwCatch[wdwCatch$Year >= 2003,]
 slopeC <- wdwCatch[wdwCatch$Year <  2003,]
@@ -36,7 +41,7 @@ names(dat) <- c("X","Y","Z")
 dat <- as.EventData(data.frame(EID=1:nrow(dat),dat))
 datNoZero <- as.EventData(data.frame(EID=1:nrow(dat[dat$Z>0&!is.na(dat$Z),]),dat[dat$Z>0&!is.na(dat$Z),]))
 
-ht <- 12;wd<-10
+ht <- 9;wd<-6.5
 windows(height=ht,width=wd)
 xlims <- c(-127.5,-116.45)
 ylims <- c(32.0,48.55)

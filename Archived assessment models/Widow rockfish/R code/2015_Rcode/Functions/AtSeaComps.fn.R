@@ -95,7 +95,7 @@ Atsea.comps = function(x,BY_AGE=FALSE, BY_MONTH=FALSE, BY_GENDER=FALSE,
                        lbin.sizes=NULL, in.season=NULL, in.pctl=0.95,
                        which="pct", min_Haul=0, min_T_weight=0,
                        min_sample=15, remove_sparse=FALSE, NO_LENGTH=FALSE,
-                       out.filename, report.filename) {
+                       out.filename, report.filename,ages=0:40) {
 
 # Stop turning my character vectors into factors!
  #   x$Month = substring(x$RETRV_DATE_TIME,6,7)
@@ -867,15 +867,15 @@ rm(Use_Length)
 
   # Weather or not we're doing age comps
 
-  atsea.data$AGE[atsea.data$AGE < 1] = 1
-  atsea.data$AGE[atsea.data$AGE > 15] = 15
+  atsea.data$AGE[atsea.data$AGE < min(ages)] = min(ages)
+  atsea.data$AGE[atsea.data$AGE > max(ages)] = max(ages)
 
   # Make sure all ages show up in the table, as zeros if not represented
   # in the data
 
   post_age.summary = summary(atsea.data$AGE)
 
-  atsea.data$AGE = factor(atsea.data$AGE, levels=seq(1,15))
+  atsea.data$AGE = factor(atsea.data$AGE, levels=ages)
 
 if (!BY_AGE) {
 
@@ -930,7 +930,6 @@ hauls.num = round(xtabs(hauls.form))
 ##############################################################################
 
 # Helper function for counting trips
-
 nfacts = function(x) { nlevels(factor(x)) }
 
 # Collect Weight used for each Haul.ID
@@ -1005,7 +1004,6 @@ post_total.wgt.summary = summary(atsea.data$Eff_sample_weight)
 options(warn=-1)
 
 outfname = out.filename
-
 if (BY_AGE) {
 
   cat(file=outfname, "\n\nAtsea age comps, Year:", YEAR[1], "\n\n", append=T)
@@ -1340,7 +1338,7 @@ close(outfile)
 detach(atsea.data)
 options(warn=0)
 
-print("HERE")
+
 
 } # End function atsea.comps
 

@@ -12,6 +12,7 @@ wdw$mt <- wdw$APOUNDS*0.00045359237
 table(wdw$DRVID,wdw$mt>0)
 y2 <- tapply(wdw$mt,as.character(wdw$DRVID),sum,na.rm=T)
 
+tapply(wdw$mt,list(wdw$RYEAR,wdw$GRID),sum)
 
 # filterOn <- function(x,vars,vals) {
 	# LOOK at observer code because I do something similar
@@ -25,7 +26,7 @@ yrs <- 1981:1998
 yrs <- 1982:1998
 logBook <- NULL
 colsToSave <- c("TRIP_ID","AGID","RYEAR","RMONTH","RPORT","RPCID","DRVID","TOWNUM","ARID_PSMFC",
-				"SET_LAT","SET_LONG","SET_TIME","DURATION","NET_TYPE","DEPTH1","DEPTH2","PACFIN_TARGET",
+				"SET_LAT","SET_LONG","SET_TIME","DURATION","NET_TYPE","GRID","DEPTH1","DEPTH2","PACFIN_TARGET",
 				"SPID","APOUNDS","ADJ_TOWTIME")
 for(i in 1:length(yrs)) {
 	cat("Year",yrs[i],"\n")

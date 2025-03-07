@@ -15,13 +15,14 @@ source("Rcode/functions/processNorpacCatchSpecies.R")
 #options(digits=19)  #set this so that the full haul join number is displayed
 
 if(F) {
-convert to extractR    ncatch <- queryDB(queryFilename="NORPAC.domestic.catch",db="NORPAC",uid="hicksa",start=2000,end=2014,querydir="sql/")
+convert to extractR
+    ncatch <- queryDB(queryFilename="C:/NOAA2015/Widow/Data/SQL/NORPAC.domestic.catch.query",db="NORPAC",uid="hicksa",start=1966,end=2014)
     save(ncatch,file="extractedData/NORPACdomesticCatch.Rdat")
     file.copy("extractedData/NORPACdomesticCatch.Rdat",paste("extractedData/NORPACdomesticCatch_",format(Sys.time(),"%Y.%m.%d"),".Rdat",sep=""),overwrite=T)
 }
 
 if(F) {
-    ncatch2 <- queryDB(queryFilename="NORPAC.domestic.catch.detailed",db="NORPAC",uid="hicksa",start=1991,end=2014,querydir="sql/")
+    ncatch2 <- queryDB(queryFilename="C:/NOAA2015/Widow/Data/SQL/NORPAC.domestic.catch.detailed.query",db="NORPAC",uid="hicksa",start=1990,end=2014)
     save(ncatch2,file="extractedData/NORPACdomesticCatchDetailed.Rdat")
     file.copy("extractedData/NORPACdomesticCatchDetailed.Rdat",paste("extractedData/NORPACdomesticCatchDetailed_",format(Sys.time(),"%Y.%m.%d"),".Rdat",sep=""),overwrite=T)
 }
@@ -33,7 +34,7 @@ if(F) {
 
 #Get NORPAC catches
 setwd("C:/NOAA2015/Widow/Data")
-source("Rcode/functions/Functions.R")
+#source("Rcode/functions/Functions.R")
 source("Rcode/functions/processNorpacCatchSpecies.R")
 
 load(file="extractedData/NORPACdomesticCatch.Rdat")
@@ -69,49 +70,45 @@ load(file="extractedData/NorpacAtSeaCatch.Rdat")
 out.yr <- aggregate(out$Catch,list(out$Sector,out$Year),sum)
 names(out.yr) <- c("Sector","Year","Catch.MT")
 widow <- out.yr
-barplot(widow$Catch.MT,beside=T,names=2000:2014,ylab="Catch (mt)",xlab="Year",main="Widow catch in the hake at-sea fishery")
+barplot(widow$Catch.MT,beside=T,names=1990:2014,ylab="Catch (mt)",xlab="Year",main="Widow catch in the hake at-sea fishery")
 
 #the extrapolated to haul catch but not extrapolated to unsampled hauls
 wd <- ncatchAll[ncatchAll$SPECIES==305,]
 tapply(wd$EXTRAPOLATED,substring(wd$HAUL_DATE,1,4),sum)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+table(substring(wd$HAUL_DATE,1,4))
 
 #Look at extrapolations
 load(file="extractedData/NORPACdomesticCatchDetailed.Rdat") #ncatch2
-re <- ncatch2[ncatch2$SPECIES==305 & !is.na(ncatch2$SPECIES),]
-tapply(re$EXTRAPOLATED,substring(re$HAUL_DATE,1,4),sum)
-widow.df <- data.frame(rougheye,sampledOnly=tapply(re$EXTRAPOLATED,substring(re$HAUL_DATE,1,4),sum)/1000)
+wd <- ncatch2[ncatch2$SPECIES==305 & !is.na(ncatch2$SPECIES),]
+tapply(wd$EXTRAPOLATED,substring(wd$HAUL_DATE,1,4),sum)
+widow.df <- data.frame(widow,sampledOnly=tapply(wd$EXTRAPOLATED,substring(wd$HAUL_DATE,1,4),sum)/1000)
 widow.df$percWtNotSamp <- (widow.df$Catch.MT-widow.df$sampledOnly)/widow.df$Catch.MT
 
+wd$expand.species <- round(wd$EXTRAPOLATED_WEIGHT/wd$SAMPLE_WEIGHT,2)
+wd$expand.tow <- round(wd$OFFICIAL_TOTAL_CATCH/(wd$SAMPLE_SIZE/1000),2)
+range(wd$expand.species-wd$expand.tow,na.rm=T)
+boxplot(wd$expand.species-wd$expand.tow)
 
-re$expand.species <- round(re$EXTRAPOLATED_WEIGHT/re$SAMPLE_WEIGHT,2)
-re$expand.tow <- round(re$OFFICIAL_TOTAL_CATCH/(re$SAMPLE_SIZE/1000),2)
-range(re$expand.species-re$expand.tow,na.rm=T)
-boxplot(re$expand.species-re$expand.tow)
+boxplot(wd$expand.species)
+boxplot(wd$expand.species,log="y")
+range(wd$expand.species,na.rm=T)
 
-boxplot(re$expand.species)
-boxplot(re$expand.species,log="y")
-range(re$expand.species,na.rm=T)
+# windows(height=5,width=6.5)
+# boxplot(split(wd$expand.species,factor(wd$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for rougheye rockfish")
 
-windows(height=5,width=6.5)
-boxplot(split(re$expand.species,factor(re$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for rougheye rockfish")
+widow.df$medWithinTowExp <- round(tapply(wd$expand.species,wd$YEAR,median),2)
+tapply(wd$expand.tow,wd$YEAR,median)
 
 
-widow.df$medWithinTowExp <- round(tapply(re$expand.species,re$YEAR,median),2)
-tapply(re$expand.tow,re$YEAR,median)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -126,22 +123,49 @@ tapply(re$expand.tow,re$YEAR,median)
 #5 = a vessel that sells the majority of their catch over the side to other fishing vessels who will utilize the fish for bait,
 #6 = vessels that discard all catch from a haul; would be used for codend dumping of an entire haul (added January 2004).
 
-re.sec <- split(re,re$VESSEL_TYPE)
-boxplot(split(re$expand.species,re$VESSEL_TYPE),log="y")
+wd.sec <- split(wd,wd$VESSEL_TYPE)
+boxplot(split(wd$expand.species,wd$VESSEL_TYPE),log="y")
+x <- tapply(wd$EXTRAPOLATED_WEIGHT,list(wd$YEAR,wd$VESSEL_TYPE),sum)
+x
+png("../WriteUp/Figures/CPandMScatch.png",width=6.5,height=4,units="in",res=600)
+par(mar=c(4,4,1,1))
+plot(as.numeric(row.names(x))-0.1, x[,1]/1000,type="h",lwd=3,ylab="Catch of Widow Rockfish (thousand t)",xlab="Year",las=1)
+lines(as.numeric(row.names(x))+0.1, x[,2]/1000,type="h",lwd=3,col="green4")
+legend("topright",c("Catcher-Processor","Mothership"),lwd=5,lty=1,col=c("black","green4"))
+dev.off()
+
 windows(height=5,width=6.5)
-boxplot(split(re.sec[[1]]$expand.species,factor(re.sec[[1]]$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for CP fleet")
+boxplot(split(wd.sec[[1]]$expand.species,factor(wd.sec[[1]]$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for CP fleet")
 windows(height=5,width=6.5)
-boxplot(split(re.sec[[2]]$expand.species,factor(re.sec[[2]]$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for MS fleet")
+boxplot(split(wd.sec[[2]]$expand.species,factor(wd.sec[[2]]$YEAR,levels=2002:2012)),log="y",xlab="Year",ylab="Within tow expansion factor",main="Expansion factors for MS fleet")
 
-re$exSpCat <- cut(re$expand.species,c(0,1,2,3,4,5,10,20,100,Inf))
-table(re$YEAR,re$exSpCat)
+wd$exSpCat <- cut(wd$expand.species,c(0,1,2,3,4,5,10,20,100,Inf))
+table(wd$YEAR,wd$exSpCat)
 
-cbind(tapply(re$SAMPLE_WEIGHT,re$exSpCat,sum))
-tapply(re$EXTRAPOLATED_WEIGHT,list(re$YEAR,re$exSpCat),sum)
+cbind(tapply(wd$SAMPLE_WEIGHT,wd$exSpCat,sum))
+tapply(wd$EXTRAPOLATED_WEIGHT,list(wd$YEAR,wd$exSpCat),sum)
 
-tapply(re$EXTRAPOLATED_WEIGHT,list(re$YEAR,re$VESSEL_TYPE),sum)
+tapply(wd$EXTRAPOLATED_WEIGHT,list(wd$YEAR,wd$VESSEL_TYPE),sum)
 
-table(pAtSeaCatch$YEAR,pAtSeaCatch$PROCESSOR != pAtSeaCatch$CATCHER)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pAtSeaCatch$CP <- pAtSeaCatch$PROCESSOR == pAtSeaCatch$CATCHER
 #ms <- pAtSeaCatch[pAtSeaCatch$PROCESSOR != pAtSeaCatch$CATCHER,]
@@ -149,14 +173,7 @@ tapply(pAtSeaCatch$TOTAL_WEIGHT,list(pAtSeaCatch$YEAR,pAtSeaCatch$CP),sum)
 
 
 
-
-
-
-
-
-
-
-re$SPECIFICHAUL <- paste(format(re[,1],digits=19),re$HAUL,sep="_")
+wd$SPECIFICHAUL <- paste(format(re[,1],digits=19),re$HAUL,sep="_")
 hauls.fn <- function(x) {
     x <- x[(!is.na(x$OFFICIAL_TOTAL_CATCH)) & x$OFFICIAL_TOTAL_CATCH != 0,]  #only observations with an official catch
     Nhauls <- length(unique(x$SPECIFICHAUL))

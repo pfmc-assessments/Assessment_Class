@@ -1,0 +1,248 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ind",
+				"ind"
+			],
+			[
+				"wca",
+				"wcatch$Year==2014"
+			],
+			[
+				"prcess",
+				"processNorpacCatch"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: For Loop"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/NOAA2015/ObserverDatabase/Rcode/functions/bootstrapDiscardRatio_ach_V3.r",
+		"/C/NOAA2015/Widow/Models/0.00_Widow2011base/wdw1.dat",
+		"/C/Users/Allan.Hicks/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Allan.Hicks/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/NOAA2015/Widow/Data/Rcode/WashingtonLandings.R",
+		"/C/NOAA2015/Widow/Data/Rcode/TrawlSurvey.R",
+		"/C/NOAA2015/Hake/Data/Rcode/interestingPlots.R",
+		"/C/NOAA2013/Rougheye/Data/Rcode/rougheyeBlackspotted.R",
+		"/C/NOAA2013/Rougheye/Data/Rcode/rougheye_mapping_notes.R",
+		"/U/Mapping/Rcode/Functions/functions.R",
+		"/C/NOAA2015/Widow/Data/SQL/pre.2008.atsea.length.age.query",
+		"/C/NOAA2015/Widow/Data/SQL/atsea.detail.query",
+		"/C/NOAA2015/Widow/Data/SQL/atsea.query",
+		"/C/instantclient_12_1/BASIC_README",
+		"/C/instantclient_12_1/SQLPLUS_README",
+		"/C/NOAA2015/SurveyDatabase/REgisterDnsInOracle.txt",
+		"/C/MSE2015/Age1MSE.R",
+		"/C/NOAA2015/Rcode/Shiny/Selectivities/shinySelex.R",
+		"/C/NOAA2015/Rcode/Shiny/Selectivities/ui.R",
+		"/C/NOAA2015/Rcode/Shiny/Selectivities/server.R",
+		"/C/NOAA2015/Other/SurveyReduction/Dover/Unchanged/dover2011.dat",
+		"/C/NOAA2011/Dover/Models/base/dover2011.dat",
+		"/C/NOAA2015/Other/SurveyReduction/Trawl_changes_delta-GLMM_2014-10-02.R",
+		"/C/Users/hicksal/Documents/tnsnamesNEW.ora",
+		"/C/Users/hicksal/Documents/tnsnamesOLD.ora",
+		"/C/Users/hicksal/Documents/tnsnames.ora",
+		"/C/Oracle/instantclient_11_2/tnsnames.ora",
+		"/C/oracle_instant_client_11_2/tnsnamesNEW.ora",
+		"/C/oracle_instant_client_11_2/tnsnames.ora",
+		"/C/Users/hicksal/AppData/Roaming/Sublime Text 3/Packages/Enhanced-R/Enhanced-R.sublime-settings",
+		"/C/NOAA2014/Hake/Data/Rcode/CompFigures",
+		"/C/NOAA2014/Hake/Data/Rcode/hake2014_Data_R.prj.bak",
+		"/C/NOAA2014/Hake/Data/Rcode/hake2014_Data_R.sublime-workspace",
+		"/C/NOAA2014/Hake/Data/Rcode/hake2014_Data_R.sublime-project",
+		"/C/Users/hicksal/AppData/Roaming/Sublime Text 3/Packages/User/Enhanced-R.sublime-settings",
+		"/C/Users/hicksal/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/hicksal/Downloads/TextEditors/testSublime/testSublime.sublime-project",
+		"/C/Users/hicksal/Downloads/TextEditors/testSublime/test.R"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"save",
+			"wdwLens",
+			"map",
+			"reye",
+			"wcatch",
+			"ncatch",
+			"reye",
+			"REYE",
+			"reye",
+			"307",
+			"lencomp",
+			"\\",
+			"2013",
+			"2014",
+			"NOAA2014",
+			"CP",
+			"out",
+			"NOAA2014",
+			"mat.fn",
+			"2011  1.03\n",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hake",
+				"C:\\NOAA2014\\Hake\\Hake2014.sublime-project"
+			],
+			[
+				"",
+				"C:\\NOAA2014\\SurveyDatabase\\surveySQL.sublime-project"
+			],
+			[
+				"hnl",
+				"C:\\NOAA2014\\HookAndLineSurvey\\HnL2014.sublime-project"
+			],
+			[
+				"rough",
+				"C:\\NOAA2013\\Rougheye\\rougheye2013.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,3 +1,70 @@
+dont source
+setwd("C:\\NOAA2015\\Widow\\Data\\PacFIN")
+
+
+load("PacFIN.WDOW.Catch.by.Gear.05.Jun.2015.dmp")
+dat <- PacFIN.WDOW.Catch.by.Gear.05.Jun.2015
+rm(PacFIN.WDOW.Catch.by.Gear.05.Jun.2015)
+
+dat$gear <- NA
+dat$gear[dat$GRID%in%c("SST","SHT","PWT","DST")] <- "ShrimpTrawl"
+dat$gear[dat$GRID%in%c("RLT","OTW","GFT","GFS","GFL","FTS","FFT","BTT","BMT")] <- "BottomTrawl"
+dat$gear[dat$GRID%in%c("MDT")] <- "MidwaterTrawl"
+dat$gear[dat$GRID%in%c("PRT","DNT")] <- "MiscTrawl"
+dat$gear[dat$GRID%in%c("BTR","CLP","CPT","FPT","OPT","PRW")] <- "Pot"
+dat$gear[dat$GRID%in%c("JIG","LGL","OHL","POL","TRL","VHL")] <- "HnL"
+dat$gear[dat$GRID%in%c("DPN","DGN","GLN","ONT","SEN","STN")] <- "Net"
+dat$gear[dat$GRID%in%c("DVG","USP")] <- "Other"
+
+dat$mt <- dat$CATCH.KG/1000
+tapply(dat$mt,list(dat$YEAR,dat$SPID,dat$PCID),sum)
+
+tapply(dat$mt,list(dat$YEAR,dat$GRID,dat$PCID),sum)
+tapply(dat$mt,list(dat$YEAR,dat$gear,dat$PCID),sum)
+
+
+##### By Gear Group
+# load("PacFIN.WDOW.Catch.by.Gear.Group.05.Jun.2015.dmp")
+# dat <- PacFIN.WDOW.Catch.by.Gear.Group.05.Jun.2015
+# rm(PacFIN.WDOW.Catch.by.Gear.Group.05.Jun.2015)
+# lapply(dat[,1:6],table)
+### Not useful because MDT in with TWL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############################################################################
+### OLD rougheye stuff below
+
 #Function to extract PacFIN rougheye catch
 #Needs the RODBC library
 #set working directory to have subdirectories:
