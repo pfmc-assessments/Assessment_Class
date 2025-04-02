@@ -1,0 +1,42 @@
+# Data
+
+<!--- Provide temporal and spatial resolutions or sample size where appropriate for each of the subsections, below.--->
+
+## Fishery-dependent data
+
+<!-- Commercial fisheries landings by state, year, and gear (PacFIN is the standard source for recent domestic commercial landings), historical catch estimates, discards, recreational fisheries catches, foreign removals; sample size information for length- and age-composition data by state, year and gear, including both the number of trips and fish sampled. Description of methods to estimate abundance indices, sample size information by survey and year. Include complete tables and figures and date of data extraction. -->
+
+### Landings
+
+
+### Discards
+
+
+### Biological data
+
+
+### Abundance indices
+
+
+## Fishery-independent data
+
+<!-- Fishery-independent data: Description of surveys used in the assessment, description of methods to estimate abundance indices, sample size information for length- and age- composition data by survey and year, including both the number of tows (or drops or sites for hook and line data) and fish sampled. Include complete tables and figures and date of data extraction.   -->
+
+## Biological Parameters
+
+
+### Natural Mortality
+
+
+### Weight-at-length
+
+
+### Maturity
+
+
+### Fecundity
+
+
+## Environmental and ecosystem data
+
+<!-- Environmental or ecosystem data or model products used in the stock assessment model and/or in the preparation of data or estimation of biological parameters. If environmental or ecosystem data are incorporated in the stock assessment model, provide a report of consultations with technical teams that evaluate ecosystem data or methodologies used in  -->
