@@ -2,6 +2,11 @@
 
 This is a repository for the 2025 applied stock assessment course at the University of Washington. 
 
+## IMPORTANT DEADLINES:
+
+- May 21, 2025: Internal review deadline
+- June 11, 2025: Groundfish subcommittee of the SSC review in Rohnert Park, CA and online
+
 ## How this repository works:
 
 This repository contains lectures, example code, and background reading materials for both courses. Materials will be added as the course progresses.
