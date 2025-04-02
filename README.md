@@ -4,6 +4,7 @@ This is a repository for the 2025 applied stock assessment course at the Univers
 
 ## IMPORTANT DEADLINES:
 
+- May 14, 2025: Send a near-to-final draft report to instructors
 - May 21, 2025: Internal review deadline
 - June 11, 2025: Groundfish subcommittee of the SSC review in Rohnert Park, CA and online
 
