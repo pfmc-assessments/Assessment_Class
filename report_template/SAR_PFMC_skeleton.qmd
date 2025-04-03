@@ -26,8 +26,8 @@ format:
       - 'support_files/pfmc.tex'
       - text: '\lohead{SPECIES assessment 2025}'
     toc: true
-    lof: true
-    lot: true
+    lof: false
+    lot: false
     titlepage-geometry: 
       - top=2in
       - bottom=1in
