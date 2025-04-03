@@ -16,5 +16,7 @@
 * if there are parameters hitting bounds, these may need to be adjusted to improve convergence
 * if there is evidence that selectivity or retention has changed in recent years the blocks could be revised as noted above
 
+## data weighting
+* model needs to be retuned, with method used in full assessment, and new weights added to the control file
 
 

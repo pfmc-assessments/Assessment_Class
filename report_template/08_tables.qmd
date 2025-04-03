@@ -1,0 +1,13 @@
+## Tables 
+ 
+```{r} 
+#| label: 'set-rda-dir-tbls'
+#| echo: false 
+#| warning: false 
+#| eval: true 
+#| include: false
+library(flextable)
+
+rda_dir <- 'C:/Users/kiva.oken/Desktop/yellowtail_2025/rda_files'
+``` 
+

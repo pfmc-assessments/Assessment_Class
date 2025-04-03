@@ -1,0 +1,10 @@
+## Figures 
+ 
+```{r} 
+#| label: 'set-rda-dir-figs'
+#| echo: false 
+#| warning: false 
+#| eval: true 
+rda_dir <- 'C:/Users/kiva.oken/Desktop/yellowtail_2025/report/rda_files'
+``` 
+
