@@ -1,6 +1,7 @@
 ---
-title: 'Status of the SPECIIES stock off the U.S. West Coast in 2025'
+title: 'Status of  SPECIES off the U.S. West Coast in 2025'
 author:
+# add authors in order
   - name: 'Kiva L. Oken'
     affiliations:
       - name: 'NOAA Fisheries Northwest Fisheries Science Center'
@@ -8,7 +9,6 @@ author:
         city: 'Seattle'
         state: 'WA'
         postal-code: '98112-2097'
-        
 date: today
 lang: en 
 keep-tex: true 
@@ -23,6 +23,8 @@ format:
       - 'support_files/_titlepage.tex'
     include-in-header:
       - 'support_files/in-header.tex'
+      - 'support_files/pfmc.tex'
+      - text: '\lohead{SPECIES assessment 2025}'
     toc: true
     lof: true
     lot: true
@@ -140,12 +142,24 @@ Please cite this publication as:
 
 AUTHORS. (2025) Status of  SPECIES off the U.S. West Coast in 2025. Pacific Fishery Management Council. [XX] p.
 
-\pagebreak
+{{< pagebreak >}} 
+
 \pagenumbering{roman}
 \setcounter{page}{1}
 
 \renewcommand{\thetable}{\roman{table}}
 \renewcommand{\thefigure}{\roman{figure}}
+
+```{r, results='asis'}
+#| label: 'disclaimer'
+#| eval: true
+#| echo: false
+#| warning: false
+a <- knitr::knit_child('00a_disclaimer.qmd', quiet = TRUE)
+cat(a, sep = '\n')
+```
+
+ {{< pagebreak >}} 
 
 ```{r, results='asis'}
 #| label: 'executive_summary'
@@ -157,6 +171,16 @@ cat(a, sep = '\n')
 ```
 
  {{< pagebreak >}} 
+
+\setlength{\parskip}{5mm plus1mm minus1mm}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\setcounter{section}{0}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+
 
 ```{r, results='asis'}
 #| label: 'introduction'
@@ -189,9 +213,6 @@ a <- knitr::knit_child('04a_model_summary.qmd', quiet = TRUE)
 cat(a, sep = '\n')
 ```
 
-
- {{< pagebreak >}} 
-
 ```{r, results='asis'}
 #| label: 'assessment-sensitivity'
 #| eval: true
@@ -200,8 +221,6 @@ cat(a, sep = '\n')
 a <- knitr::knit_child('04b_model_results.qmd', quiet = TRUE)
 cat(a, sep = '\n')
 ```
-
- {{< pagebreak >}} 
 
 ```{r, results='asis'}
 #| label: 'assessment-benchmarks'

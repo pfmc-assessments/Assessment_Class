@@ -8,6 +8,13 @@
 #| include: false
 library(flextable)
 
-rda_dir <- 'C:/Users/kiva.oken/Desktop/yellowtail_2025/rda_files'
+# You can save tables to read in as csv or rda files.
+# stockplotr generally uses rda files.
+# I (Kiva) prefer csv files because they are text files that are easier to track and preview with version control.
+
+# There are many ways to incorporate tables into quarto documents.
+# One is using the flextable package via R chunks.
+# For help: https://ardata-fr.github.io/flextable-book/
+
 ``` 
 

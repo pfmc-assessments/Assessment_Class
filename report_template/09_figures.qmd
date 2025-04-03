@@ -1,10 +1,8 @@
-## Figures 
- 
-```{r} 
-#| label: 'set-rda-dir-figs'
-#| echo: false 
-#| warning: false 
-#| eval: true 
-rda_dir <- 'C:/Users/kiva.oken/Desktop/yellowtail_2025/report/rda_files'
-``` 
+## Figures
 
+<!-- 
+Example: 
+
+![Figure caption \label{fig:tag_name}](file.png){alt="alt text"} 
+
+-->

@@ -1,13 +1,3 @@
-\pagebreak
-\setlength{\parskip}{5mm plus1mm minus1mm}
-\pagenumbering{arabic}
-\setcounter{page}{1}
-\setcounter{section}{0}
-\renewcommand{\thefigure}{\arabic{figure}}
-\renewcommand{\thetable}{\arabic{table}}
-\setcounter{table}{0}
-\setcounter{figure}{0}
-
 # Introduction
 
 <!-- Scientific name, distribution, the basis for the choice of stock structure, including regional differences in life history or other biological characteristics that should form the basis of management units.  -->

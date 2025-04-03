@@ -20,7 +20,12 @@
 
 ## Fishery-independent data
 
-<!-- Fishery-independent data: Description of surveys used in the assessment, description of methods to estimate abundance indices, sample size information for length- and age- composition data by survey and year, including both the number of tows (or drops or sites for hook and line data) and fish sampled. Include complete tables and figures and date of data extraction.   -->
+<!-- 
+Fishery-independent data: Description of surveys used in the assessment, description of methods to estimate abundance indices, sample size information for length- and age- composition data by survey and year, including both the number of tows (or drops or sites for hook and line data) and fish sampled. Include complete tables and figures and date of data extraction. 
+
+For pre-written descriptions of our main surveys, go here: https://github.com/pfmc-assessments/sa4ss/tree/main/inst/rmarkdown/templates/sa/skeleton
+And copy the text from the files 21s-tri.Rmd and 21s-wcgbts.Rmd
+-->
 
 ## Biological Parameters
 
