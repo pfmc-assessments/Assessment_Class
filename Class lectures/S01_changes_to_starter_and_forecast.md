@@ -14,4 +14,5 @@
   * command is something like `PEPtools::get_buffer(years = 2025:2036, sigma = 
      0.5, pstar = 0.45)`
 * ignore "FirstYear for caps and allocations" because we have no caps or allocations
+* change "stddev of log(realized catch/target catch) in forecast" to 0
 * update fixed forcast catches at the bottom for assumed catches in 2025 and 2026 (values will likely be provided by GMT)
