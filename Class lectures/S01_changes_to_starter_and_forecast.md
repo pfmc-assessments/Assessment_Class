@@ -10,5 +10,8 @@
 * consider using the -12345 code and the new format for expanded fcast year controls
 * set `-1 # Buffer:  enter Control rule target as fraction of Flimit (e.g. 0.75), negative value invokes list of [year, scalar] with filling from year to YrMax` 
 * update buffer values using `PEPtools::get_buffer()` https://github.com/pfmc-assessments/PEPtools/blob/main/R/buffer_fxn.R
+  * install via `remotes::install_github("pfmc-assessments/PEPtools")`
+  * command is something like `PEPtools::get_buffer(years = 2025:2036, sigma = 
+     0.5, pstar = 0.45)`
 * ignore "FirstYear for caps and allocations" because we have no caps or allocations
 * update fixed forcast catches at the bottom for assumed catches in 2025 and 2026 (values will likely be provided by GMT)
