@@ -15,4 +15,5 @@
      0.5, pstar = 0.45)`
 * ignore "FirstYear for caps and allocations" because we have no caps or allocations
 * change "stddev of log(realized catch/target catch) in forecast" to 0
+* remove the "fcast catch tuning" table for Widow and use `1 # fleet relative F`, and rely on the new forecast specification table triggered by the -12345 code noted above. For both models you could explore alternatives ranges for the range of years for "rel_F"
 * update fixed forcast catches at the bottom for assumed catches in 2025 and 2026 (values will likely be provided by GMT)
