@@ -1,0 +1,8 @@
+## Figures
+
+<!-- 
+Example: 
+
+![Figure caption \label{fig:tag_name}](file.png){alt="alt text"} 
+
+-->

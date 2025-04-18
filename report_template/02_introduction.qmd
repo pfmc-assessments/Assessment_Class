@@ -1,0 +1,27 @@
+# Introduction
+
+<!-- Scientific name, distribution, the basis for the choice of stock structure, including regional differences in life history or other biological characteristics that should form the basis of management units.  -->
+
+## Life History
+
+Refer to the most recent full assessment for additional information.
+
+## Ecosystem considerations
+
+Refer to the most recent full assessment for additional information.
+
+## Fishery description
+
+Refer to the most recent full assessment for additional information.
+
+## Management History
+
+Refer to the most recent full assessment for additional information.
+
+## Management performance
+
+<!-- Management performance, including a table or tables comparing Overfishing Limit (OFL), Acceptable Biological Catch (ABC), Annual Catch Limit (ACL), landings, and catch (i.e., landings plus discard) for each area and year. Groundfish assessments that estimate dead discarded catch must include a disclaimer noting that total mortality estimates from the WCGOP and from the stock assessment may differ due to the use of different methods. Investigation into how these methods differ is beyond the scope of a benchmark assessment. The rationale for modeling discard mortality can also be provided. This should be included in all update assessments.  -->
+
+## Fisheries off Canada and Alaska
+
+Refer to the most recent full assessment for additional information.

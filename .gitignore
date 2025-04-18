@@ -38,3 +38,9 @@ README.html
 # old files of Kiva's
 winter_lectures/
 code/
+
+# quarto/latex stuff
+*.tex
+*.upa
+*.upb
+nul

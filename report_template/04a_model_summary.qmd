@@ -1,0 +1,32 @@
+# Assessment model
+
+## History of modeling approaches
+
+Refer to the most recent full assessment for additional information.
+
+## Responses to SSC Groundfish Subcommittee requests
+
+To be completed after review.
+
+## Model Structure and Assumptions
+
+
+### Model Changes from the Last Assessment
+
+<!-- Description of new modeling approaches and changes made from the last assessment, with rationale. This should include bridging analyses that highlight the data and model changes that were most influential with respect to changes between the assessment being reviewed and the most recent adopted assessment. 
+
+KLO: The TOR says this is not required for updates. I am doubtful the SSC will be ok with that. -->
+
+
+### Modeling Platform and Structure
+
+<!-- Assessment program and its version used for the assessment (i.e., date executable program file was compiled), description of model structure, definitions of fleets and areas. Description of how the first year that is included in the model was selected and how the population state at the time is defined (e.g., B0, stable age structure). -->
+
+
+### Model Parameters
+
+<!-- Model parameters: estimated and fixed parameters, constraints on parameters, selectivity assumptions, natural mortality, treatment of age reading bias and/or imprecision, and other fixed parameters, description of stock-recruitment constraints or components, critical assumptions, and consequences of assumption failures.  -->
+
+### Key Assumptions and Structural Choices
+
+Refer to the most recent full assessment for additional information.

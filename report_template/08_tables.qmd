@@ -1,0 +1,20 @@
+## Tables 
+ 
+```{r} 
+#| label: 'set-rda-dir-tbls'
+#| echo: false 
+#| warning: false 
+#| eval: true 
+#| include: false
+library(flextable)
+
+# You can save tables to read in as csv or rda files.
+# stockplotr generally uses rda files.
+# I (Kiva) prefer csv files because they are text files that are easier to track and preview with version control.
+
+# There are many ways to incorporate tables into quarto documents.
+# One is using the flextable package via R chunks.
+# For help: https://ardata-fr.github.io/flextable-book/
+
+``` 
+
