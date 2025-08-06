@@ -1,0 +1,388 @@
+"file","caption","category","png_time"
+"Models/7.08_Widow2015_STARbase/plots//bio1_sizeatage.png","Length at age in the beginning of the year (or season) in the ending year of the model. Shaded area indicates 95% distribution of length at age around estimated growth curve.","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio2_sizeatage_plus_CV_and_SD.png","Length at age (top-left panel) with CV (thick line) and SD (thin line) of length at age shown in top-right and lower-left panels","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio3_sizeatage_plus_WT_and_MAT.png","Length at age (top-left panel) with weight (thick line) and maturity (thin line) shown in top-right and lower-left panels","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio4_weightatsize.png","Weight-length relationship","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio5_maturity.png","Maturity at age","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio6_fecundity.png","Fecundity","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio7_fecundity_wt.png","Fecundity as a function of weight","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio8_fecundity_len.png","Fecundity as a function of length","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//bio9_spawningoutput.png","Spawning output at length","Bio",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel01_multiple_fleets_length1.png","Selectivity at length for multiple fleets.","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel02_multiple_fleets_age1.png","Selectivity at age for multiple fleets.","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel02_multiple_fleets_age2.png","Selectivity at age derived from selectivity at length for multiple fleets.","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt1sex1.png","Surface plot of Female time-varying selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt1sex1.png","Countour plot of Female time-varying selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt1sex1.png","Surface plot of Female time-varying retention for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt1sex1.png","Countour plot of Female time-varying retention for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt1sex1.png","Female ending year selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt1sex2.png","Surface plot of Male time-varying selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt1sex2.png","Countour plot of Male time-varying selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt1sex2.png","Surface plot of Male time-varying retention for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt1sex2.png","Countour plot of Male time-varying retention for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt1sex2.png","Male ending year selectivity for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt2sex1.png","Surface plot of Female time-varying selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt2sex1.png","Countour plot of Female time-varying selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt2sex1.png","Surface plot of Female time-varying retention for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt2sex1.png","Countour plot of Female time-varying retention for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt2sex1.png","Female ending year selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt2sex2.png","Surface plot of Male time-varying selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt2sex2.png","Countour plot of Male time-varying selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt2sex2.png","Surface plot of Male time-varying retention for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt2sex2.png","Countour plot of Male time-varying retention for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt2sex2.png","Male ending year selectivity for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt3sex1.png","Female ending year selectivity for Hake","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt3sex2.png","Male ending year selectivity for Hake","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt4sex1.png","Female ending year selectivity for Net","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt4sex2.png","Male ending year selectivity for Net","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt5sex1.png","Surface plot of Female time-varying selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt5sex1.png","Countour plot of Female time-varying selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt5sex1.png","Surface plot of Female time-varying retention for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt5sex1.png","Countour plot of Female time-varying retention for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt5sex1.png","Female ending year selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel03_len_timevary_surf_flt5sex2.png","Surface plot of Male time-varying selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel04_len_timevary_contour_flt5sex2.png","Countour plot of Male time-varying selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel05_timevary_ret_surf_flt5sex2.png","Surface plot of Male time-varying retention for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel06_timevary_ret_contour_flt5sex2.png","Countour plot of Male time-varying retention for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt5sex2.png","Male ending year selectivity for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt7sex1.png","Female ending year selectivity for Triennial","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt7sex2.png","Male ending year selectivity for Triennial","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt8sex1.png","Female ending year selectivity for NWFSC","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt8sex2.png","Male ending year selectivity for NWFSC","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt9sex1.png","Female ending year selectivity for ForeignAtSea","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel09_len_flt9sex2.png","Male ending year selectivity for ForeignAtSea","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel14_age_flt6sex1.png","Female ending year selectivity for JuvSurvey","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel14_age_flt6sex2.png","Male ending year selectivity for JuvSurvey","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt1sex1.png","Female ending year selectivity and growth for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt1sex2.png","Male ending year selectivity and growth for BottomTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt2sex1.png","Female ending year selectivity and growth for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt2sex2.png","Male ending year selectivity and growth for MidwaterTrawl","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt3sex1.png","Female ending year selectivity and growth for Hake","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt3sex2.png","Male ending year selectivity and growth for Hake","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt4sex1.png","Female ending year selectivity and growth for Net","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt4sex2.png","Male ending year selectivity and growth for Net","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt5sex1.png","Female ending year selectivity and growth for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt5sex2.png","Male ending year selectivity and growth for HnL","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt7sex1.png","Female ending year selectivity and growth for Triennial","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt7sex2.png","Male ending year selectivity and growth for Triennial","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt8sex1.png","Female ending year selectivity and growth for NWFSC","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt8sex2.png","Male ending year selectivity and growth for NWFSC","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt9sex1.png","Female ending year selectivity and growth for ForeignAtSea","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/sel21_agelen_contour_flt9sex2.png","Male ending year selectivity and growth for ForeignAtSea","Sel",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts1_Total_biomass_(mt).png","Total biomass (mt)","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts4_Summary_biomass_(mt).png","Summary biomass (mt)","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts7_Spawning_biomass_(mt).png","Spawning biomass (mt)","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals.png","Spawning biomass (mt) with ~95% asymptotic intervals","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts9_Spawning_depletion.png","Spawning depletion","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts9_Spawning_depletion_with_95_asymptotic_intervals_intervals.png","Spawning depletion with ~95% asymptotic intervals","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts11_Age-0_recruits_(1000s).png","Age-0 recruits (1,000s)","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png","Age-0 recruits (1,000s) with ~95% asymptotic intervals","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//ts_summaryF.png","Summary F (definition of F depends on setting in starter.ss)","Timeseries",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//recdevs1_points.png","Recruitment deviations","RecDev",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//recdevs2_withbars.png","Recruitment deviations with 95% intervals","RecDev",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//recdevs3_varcheck.png","Recruitment deviations variance check.<br> See later figure of transformed variance values for comparison with bias adjustment settings in the model.","RecDev",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//recruit_fit_bias_adjust.png","Points are transformed variances. Red line shows current settings forfor bias adjustment specified in control file.Blue line shows least squares estimate of alternative bias adjustmentrelationship for recruitment deviations (which may or may not be animprovement. For more information, see<br> 
+<blockquote>Methot, R.D. and Taylor, I.G., 2011. Adjusting for bias due to variability of estimated recruitments in fishery assessment models. <i>Can. J. Fish. Aquat. Sci.</i>, 68:1744-1760.</blockquote><br> 
+Estimated alternative inputs to SS control file associated with blue line in figure: 
+<pre>1961.6   #_last_early_yr_nobias_adj_in_MPD 
+1975.4   #_first_yr_fullbias_adj_in_MPD 
+2009.8   #_last_yr_fullbias_adj_in_MPD 
+2011.7   #_first_recent_yr_nobias_adj_in_MPD 
+0.8577   #_max_bias_adj_in_MPD (1.0 to mimic pre-2009 models)   </pre>","RecDev",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//SR_curve.png","Spawner-recruit curve","S-R",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//SR_curve2.png","Spawner-recruit curve with labels on first, last, and years with (log) deviations > 0.5","S-R",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch1 landings.png","landings","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch2 landings stacked.png","landings stacked","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch4 total catch (including discards).png","total catch (including discards)","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch5 total catch (including discards) stacked.png","total catch (including discards) stacked","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch6 discards.png","discards","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch7 discards stacked plot (depends on multiple fleets).png","discards stacked plot (depends on multiple fleets)","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch8 discard fraction.png","discard fraction","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//catch9 harvest rate.png","harvest rate","Catch",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots///SPR1_series.png","Timeseries of SPR","SPR",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots///SPR2_minusSPRseries.png","Timeseries of 1-SPR","SPR",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots///SPR3_ratiointerval.png","Timeseries of SPR ratio","SPR",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots///SPR4_phase.png","Phase plot of biomass ratio vs. SPR ratio","SPR",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataBottomTrawl.png","Total discard for BottomTrawl","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataBottomTrawl.png","Total discard for BottomTrawl","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataMidwaterTrawl.png","Total discard for MidwaterTrawl","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataMidwaterTrawl.png","Total discard for MidwaterTrawl","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataHnL.png","Total discard for HnL","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/discard_dataHnL.png","Total discard for HnL","Discard",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_BottomTrawl.png","Index data for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_BottomTrawl.png","Fit to index data for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_BottomTrawl.png","Observed vs. expected index values with smoother for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_BottomTrawl.png","Log index data for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_BottomTrawl.png","Fit to index data on log scale for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_BottomTrawl.png","log(observed) vs. log(expected) index values with smoother for BottomTrawl","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_Hake.png","Index data for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_Hake.png","Fit to index data for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_Hake.png","Observed vs. expected index values with smoother for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_Hake.png","Log index data for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_Hake.png","Fit to index data on log scale for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_Hake.png","log(observed) vs. log(expected) index values with smoother for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index7_timevaryingQ_Hake.png","Timeseries of catchability for Hake","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index8_Q_vs_Vuln_bio_Hake.png","Catchability vs. vulnerable biomass for fleet Hake<br> 
+This plot should illustrate curvature of nonlinear catchability relationship<br> 
+Or reveal patterns associated with random-walk catchability<br> 
+It was inspired by Jim Thorson, so blame him if you don't like it.","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_JuvSurvey.png","Index data for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_JuvSurvey.png","Fit to index data for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_JuvSurvey.png","Observed vs. expected index values with smoother for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_JuvSurvey.png","Log index data for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_JuvSurvey.png","Fit to index data on log scale for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_JuvSurvey.png","log(observed) vs. log(expected) index values with smoother for JuvSurvey","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_Triennial.png","Index data for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_Triennial.png","Fit to index data for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_Triennial.png","Observed vs. expected index values with smoother for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_Triennial.png","Log index data for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_Triennial.png","Fit to index data on log scale for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_Triennial.png","log(observed) vs. log(expected) index values with smoother for Triennial","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_NWFSC.png","Index data for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_NWFSC.png","Fit to index data for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_NWFSC.png","Observed vs. expected index values with smoother for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_NWFSC.png","Log index data for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_NWFSC.png","Fit to index data on log scale for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_NWFSC.png","log(observed) vs. log(expected) index values with smoother for NWFSC","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index1_cpuedata_ForeignAtSea.png","Index data for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index2_cpuefit_ForeignAtSea.png","Fit to index data for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index3_cpuecheck_ForeignAtSea.png","Observed vs. expected index values with smoother for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index4_logcpuedata_ForeignAtSea.png","Log index data for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index5_logcpuefit_ForeignAtSea.png","Fit to index data on log scale for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index6_logcpuecheck_ForeignAtSea.png","log(observed) vs. log(expected) index values with smoother for ForeignAtSea","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//index9_standcpueall.png","Standardized indices overlaid","Index",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers1_sex1_beg.png","Beginning of year expected numbers at age of females in (max ~ 91.8 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers1_sex2_beg.png","Beginning of year expected numbers at age of males in (max ~ 91.8 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers2_meanage_beg.png","Beginning of year mean age in the population","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers1_sex1_mid.png","Middle of year expected numbers at age of females in (max ~ 84.8 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers1_sex2_mid.png","Middle of year expected numbers at age of males in (max ~ 84.3 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers2_meanage_mid.png","Middle of year mean age in the population","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers3_ratio_age.png","Sex ratio of numbers at age (males/females)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers6_len_sex1.png","Beginning of year expected numbers at length of females in (max ~ 77.4 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers6_len_sex2.png","Beginning of year expected numbers at length of males in (max ~ 87.0 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers7_meanlen.png","Beginning of year mean length (cm) in the population","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers6_len_sex1.png","Middle of year expected numbers at length of females in (max ~ 25.5 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers6_len_sex2.png","Middle of year expected numbers at length of males in (max ~ 35.9 million)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers7_meanlen.png","Middle of year mean length (cm) in the population","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers8_ratio_len1.png","Sex ratio of numbers at length (males/females)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers8_ratio_len2.png","Sex ratio of numbers at length (females/males)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers4_equilagecomp.png","Equilibrium age distribution","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers5_ageerrorSD.png","Ageing imprecision: SD of observed age (yr)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers5_ageerrorMeans.png","Ageing imprecision: Mean observed age (yr)","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers5_ageerror_matrix_1.png","Ageing imprecision: matrix for method 1","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//numbers5_ageerror_matrix_2.png","Ageing imprecision: matrix for method 2","Numbers",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt1mkt2_page1.png","length comp data, retained, BottomTrawl (plot 1 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt1mkt2_page2.png","length comp data, retained, BottomTrawl (plot 2 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt1mkt2_page3.png","length comp data, retained, BottomTrawl (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt1mkt2_page3.png","length comp data, retained, BottomTrawl (max=0.33) (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from BottomTrawl:<br>0.081 (0.0572-0.1314)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt1mkt1.png","length comp data, discard, BottomTrawl","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt1mkt1.png","length comp data, discard, BottomTrawl (max=0.61)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from BottomTrawl:<br>0.081 (0.0577-0.1284)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt2mkt2_page1.png","length comp data, retained, MidwaterTrawl (plot 1 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt2mkt2_page2.png","length comp data, retained, MidwaterTrawl (plot 2 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt2mkt2_page3.png","length comp data, retained, MidwaterTrawl (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt2mkt2_page3.png","length comp data, retained, MidwaterTrawl (max=0.23) (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_MidwaterTrawl.png","Francis data weighting method TA1.8 MidwaterTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from MidwaterTrawl:<br>0.0497 (0.0307-0.1072)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt3mkt2_page1.png","length comp data, retained, Hake (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt3mkt2_page2.png","length comp data, retained, Hake (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt3mkt2_page2.png","length comp data, retained, Hake (max=0.19) (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_Hake.png","Francis data weighting method TA1.8 Hake <br> Suggested sample size adjustment (with 95% interval) for len data from Hake:<br>0.029 (0.0208-0.0536)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt4mkt2.png","length comp data, retained, Net","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt4mkt2.png","length comp data, retained, Net (max=0.27)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_Net.png","Francis data weighting method TA1.8 Net <br> Suggested sample size adjustment (with 95% interval) for len data from Net:<br>0.1218 (0.0777-0.3226)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt5mkt2_page1.png","length comp data, retained, HnL (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt5mkt2_page2.png","length comp data, retained, HnL (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt5mkt2_page2.png","length comp data, retained, HnL (max=0.44) (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for len data from HnL:<br>0.2171 (0.1488-0.3971)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt5mkt1.png","length comp data, discard, HnL","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt5mkt1.png","length comp data, discard, HnL (max=0.66)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for len data from HnL:<br>0.2171 (0.1476-0.3837)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt7mkt0.png","length comp data, whole catch, Triennial","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt7mkt0.png","length comp data, whole catch, Triennial (max=0.25)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_Triennial.png","Francis data weighting method TA1.8 Triennial <br> Suggested sample size adjustment (with 95% interval) for len data from Triennial:<br>0.0951 (0.0587-0.4526)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_flt8mkt0.png","length comp data, whole catch, NWFSC","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_bubflt8mkt0.png","length comp data, whole catch, NWFSC (max=0.28)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lendat_data_weighting_TA1.8_NWFSC.png","Francis data weighting method TA1.8 NWFSC <br> Suggested sample size adjustment (with 95% interval) for len data from NWFSC:<br>0.2464 (0.137-1.2241)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_mkt2_aggregated_across_time.png","length comp data, retained, aggregated across time by fleet","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_mkt1_aggregated_across_time.png","length comp data, discard, aggregated across time by fleet","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_mkt0_aggregated_across_time.png","length comp data, whole catch, aggregated across time by fleet","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex1mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, sexes combined, discard, comparing across fleets","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex2mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, female, retained, comparing across fleets (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex2mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, female, retained, comparing across fleets (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex2mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, female, discard, comparing across fleets","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex2mkt0_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, female, whole catch, comparing across fleets","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex3mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, male, retained, comparing across fleets (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex3mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, male, retained, comparing across fleets (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex3mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, male, discard, comparing across fleets","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lendat_sex3mkt0_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> length comp data, male, whole catch, comparing across fleets","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt1mkt2_page1.png","age comp data, retained, BottomTrawl (plot 1 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt1mkt2_page2.png","age comp data, retained, BottomTrawl (plot 2 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt1mkt2_page3.png","age comp data, retained, BottomTrawl (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_bubflt1mkt2_page3.png","age comp data, retained, BottomTrawl (max=0.49) (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for age data from BottomTrawl:<br>0.14 (0.1008-0.232)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt2mkt2_page1.png","age comp data, retained, MidwaterTrawl (plot 1 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt2mkt2_page2.png","age comp data, retained, MidwaterTrawl (plot 2 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt2mkt2_page3.png","age comp data, retained, MidwaterTrawl (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_bubflt2mkt2_page3.png","age comp data, retained, MidwaterTrawl (max=0.24) (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_data_weighting_TA1.8_MidwaterTrawl.png","Francis data weighting method TA1.8 MidwaterTrawl <br> Suggested sample size adjustment (with 95% interval) for age data from MidwaterTrawl:<br>0.179 (0.1315-0.2815)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt3mkt2_page1.png","age comp data, retained, Hake (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt3mkt2_page2.png","age comp data, retained, Hake (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_bubflt3mkt2_page2.png","age comp data, retained, Hake (max=0.19) (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_data_weighting_TA1.8_Hake.png","Francis data weighting method TA1.8 Hake <br> Suggested sample size adjustment (with 95% interval) for age data from Hake:<br>0.1584 (0.1037-0.3403)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt4mkt2.png","age comp data, retained, Net","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_bubflt4mkt2.png","age comp data, retained, Net (max=0.3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_data_weighting_TA1.8_Net.png","Francis data weighting method TA1.8 Net <br> Suggested sample size adjustment (with 95% interval) for age data from Net:<br>0.1322 (0.0811-0.4172)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt5mkt2_page1.png","age comp data, retained, HnL (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_flt5mkt2_page2.png","age comp data, retained, HnL (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_bubflt5mkt2_page2.png","age comp data, retained, HnL (max=0.87) (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agedat_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for age data from HnL:<br>0.4363 (0.3344-0.7377)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agedat_mkt2_aggregated_across_time.png","age comp data, retained, aggregated across time by fleet","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agedat_sex2mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> age comp data, female, retained, comparing across fleets (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agedat_sex2mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> age comp data, female, retained, comparing across fleets (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agedat_sex3mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> age comp data, male, retained, comparing across fleets (plot 1 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agedat_sex3mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> age comp data, male, retained, comparing across fleets (plot 2 of 2)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_gstagedat_flt8mkt0.png","ghost age comp data, whole catch, NWFSC","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_gstagedat_bubflt8mkt0.png","ghost age comp data, whole catch, NWFSC (max=0.55)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_bubflt8mkt0_page1.png","conditional age-at-length data, whole catch, NWFSC (max=1) (plot 1 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_bubflt8mkt0_page2.png","conditional age-at-length data, whole catch, NWFSC (max=1) (plot 2 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_bubflt8mkt0_page3.png","conditional age-at-length data, whole catch, NWFSC (max=1) (plot 3 of 3)","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_data_weighting_TA1.8_condAgeNWFSC.png","Francis data weighting method TA1.8 for conditional age data NWFSC <br>For more info, see<br> <blockquote>Francis, R.I.C.C. (2011). Data weighting in statistical fisheries stock assessment models. <i>Can. J. Fish. Aquat. Sci.</i> 68: 1124-1138.</blockquote>","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_Andre_plotsflt8mkt0_page1.png","Conditional AAL plot, whole catch, NWFSC (plot 1 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_Andre_plotsflt8mkt0_page2.png","Conditional AAL plot, whole catch, NWFSC (plot 2 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_Andre_plotsflt8mkt0_page3.png","Conditional AAL plot, whole catch, NWFSC (plot 3 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALdat_Andre_plotsflt8mkt0_page4.png","Conditional AAL plot, whole catch, NWFSC (plot 4 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","CompDat",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt1mkt2_page1.png","length comps, retained, BottomTrawl (plot 1 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt1mkt2_page2.png","length comps, retained, BottomTrawl (plot 2 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt1mkt2_page3.png","length comps, retained, BottomTrawl (plot 3 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt1mkt2_page3.png","Pearson residuals, retained, BottomTrawl (max=12.94) (plot 3 of 3) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt1mkt2.png","N-EffN comparison, length comps, retained, BottomTrawl","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from BottomTrawl:<br>0.081 (0.059-0.1293)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt1mkt1.png","length comps, discard, BottomTrawl","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt1mkt1.png","Pearson residuals, discard, BottomTrawl (max=54.14) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt1mkt1.png","N-EffN comparison, length comps, discard, BottomTrawl","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from BottomTrawl:<br>0.081 (0.0583-0.1338)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt2mkt2_page1.png","length comps, retained, MidwaterTrawl (plot 1 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt2mkt2_page2.png","length comps, retained, MidwaterTrawl (plot 2 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt2mkt2_page3.png","length comps, retained, MidwaterTrawl (plot 3 of 3)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt2mkt2_page3.png","Pearson residuals, retained, MidwaterTrawl (max=14.18) (plot 3 of 3) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt2mkt2.png","N-EffN comparison, length comps, retained, MidwaterTrawl","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_MidwaterTrawl.png","Francis data weighting method TA1.8 MidwaterTrawl <br> Suggested sample size adjustment (with 95% interval) for len data from MidwaterTrawl:<br>0.0497 (0.0307-0.1109)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt3mkt2_page1.png","length comps, retained, Hake (plot 1 of 2)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt3mkt2_page2.png","length comps, retained, Hake (plot 2 of 2)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt3mkt2_page2.png","Pearson residuals, retained, Hake (max=19.39) (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt3mkt2.png","N-EffN comparison, length comps, retained, Hake","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_Hake.png","Francis data weighting method TA1.8 Hake <br> Suggested sample size adjustment (with 95% interval) for len data from Hake:<br>0.029 (0.0209-0.0517)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt4mkt2.png","length comps, retained, Net","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt4mkt2.png","Pearson residuals, retained, Net (max=16.84) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt4mkt2.png","N-EffN comparison, length comps, retained, Net","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_Net.png","Francis data weighting method TA1.8 Net <br> Suggested sample size adjustment (with 95% interval) for len data from Net:<br>0.1218 (0.0762-0.306)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt5mkt2_page1.png","length comps, retained, HnL (plot 1 of 2)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt5mkt2_page2.png","length comps, retained, HnL (plot 2 of 2)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt5mkt2_page2.png","Pearson residuals, retained, HnL (max=14.91) (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt5mkt2.png","N-EffN comparison, length comps, retained, HnL","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for len data from HnL:<br>0.2171 (0.1471-0.3877)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt5mkt1.png","length comps, discard, HnL","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt5mkt1.png","Pearson residuals, discard, HnL (max=6.03) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt5mkt1.png","N-EffN comparison, length comps, discard, HnL","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for len data from HnL:<br>0.2171 (0.1524-0.3788)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt7mkt0.png","length comps, whole catch, Triennial","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt7mkt0.png","Pearson residuals, whole catch, Triennial (max=21.76) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt7mkt0.png","N-EffN comparison, length comps, whole catch, Triennial","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_Triennial.png","Francis data weighting method TA1.8 Triennial <br> Suggested sample size adjustment (with 95% interval) for len data from Triennial:<br>0.0951 (0.0582-0.4132)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_flt8mkt0.png","length comps, whole catch, NWFSC","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_residsflt8mkt0.png","Pearson residuals, whole catch, NWFSC (max=19.67) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sampsize_flt8mkt0.png","N-EffN comparison, length comps, whole catch, NWFSC","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_lenfit_data_weighting_TA1.8_NWFSC.png","Francis data weighting method TA1.8 NWFSC <br> Suggested sample size adjustment (with 95% interval) for len data from NWFSC:<br>0.2464 (0.1352-1.1185)","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_mkt2_aggregated_across_time.png","length comps, retained, aggregated across time by fleet","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_mkt1_aggregated_across_time.png","length comps, discard, aggregated across time by fleet","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_mkt0_aggregated_across_time.png","length comps, whole catch, aggregated across time by fleet","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex1mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, sexes combined, discard, comparing across fleets <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex2mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, retained, comparing across fleets (plot 1 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex2mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, retained, comparing across fleets (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex2mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, discard, comparing across fleets <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex2mkt0_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, whole catch, comparing across fleets <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex3mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, retained, comparing across fleets (plot 1 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex3mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, retained, comparing across fleets (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex3mkt1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, discard, comparing across fleets <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_lenfit_sex3mkt0_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, whole catch, comparing across fleets <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","LenComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt1mkt2_page1.png","age comps, retained, BottomTrawl (plot 1 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt1mkt2_page2.png","age comps, retained, BottomTrawl (plot 2 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt1mkt2_page3.png","age comps, retained, BottomTrawl (plot 3 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_residsflt1mkt2_page3.png","Pearson residuals, retained, BottomTrawl (max=18.02) (plot 3 of 3) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sampsize_flt1mkt2.png","N-EffN comparison, age comps, retained, BottomTrawl","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_data_weighting_TA1.8_BottomTrawl.png","Francis data weighting method TA1.8 BottomTrawl <br> Suggested sample size adjustment (with 95% interval) for age data from BottomTrawl:<br>0.14 (0.0987-0.2504)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt2mkt2_page1.png","age comps, retained, MidwaterTrawl (plot 1 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt2mkt2_page2.png","age comps, retained, MidwaterTrawl (plot 2 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt2mkt2_page3.png","age comps, retained, MidwaterTrawl (plot 3 of 3)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_residsflt2mkt2_page3.png","Pearson residuals, retained, MidwaterTrawl (max=9.77) (plot 3 of 3) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sampsize_flt2mkt2.png","N-EffN comparison, age comps, retained, MidwaterTrawl","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_data_weighting_TA1.8_MidwaterTrawl.png","Francis data weighting method TA1.8 MidwaterTrawl <br> Suggested sample size adjustment (with 95% interval) for age data from MidwaterTrawl:<br>0.179 (0.1345-0.2849)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt3mkt2_page1.png","age comps, retained, Hake (plot 1 of 2)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt3mkt2_page2.png","age comps, retained, Hake (plot 2 of 2)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_residsflt3mkt2_page2.png","Pearson residuals, retained, Hake (max=9.21) (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sampsize_flt3mkt2.png","N-EffN comparison, age comps, retained, Hake","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_data_weighting_TA1.8_Hake.png","Francis data weighting method TA1.8 Hake <br> Suggested sample size adjustment (with 95% interval) for age data from Hake:<br>0.1584 (0.1041-0.3225)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt4mkt2.png","age comps, retained, Net","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_residsflt4mkt2.png","Pearson residuals, retained, Net (max=10.56) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sampsize_flt4mkt2.png","N-EffN comparison, age comps, retained, Net","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_data_weighting_TA1.8_Net.png","Francis data weighting method TA1.8 Net <br> Suggested sample size adjustment (with 95% interval) for age data from Net:<br>0.1322 (0.0798-0.3877)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt5mkt2_page1.png","age comps, retained, HnL (plot 1 of 2)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_flt5mkt2_page2.png","age comps, retained, HnL (plot 2 of 2)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_residsflt5mkt2_page2.png","Pearson residuals, retained, HnL (max=16.61) (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sampsize_flt5mkt2.png","N-EffN comparison, age comps, retained, HnL","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_agefit_data_weighting_TA1.8_HnL.png","Francis data weighting method TA1.8 HnL <br> Suggested sample size adjustment (with 95% interval) for age data from HnL:<br>0.4363 (0.3323-0.749)","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_mkt2_aggregated_across_time.png","age comps, retained, aggregated across time by fleet","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sex2mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, retained, comparing across fleets (plot 1 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sex2mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, female, retained, comparing across fleets (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sex3mkt2_page1_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, retained, comparing across fleets (plot 1 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/comp_agefit_sex3mkt2_page2_multi-fleet_comparison.png","Note: this plot doesn't seem to be working right for some models.<br><br> Pearson residuals, male, retained, comparing across fleets (plot 2 of 2) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_gstagefit_flt8mkt0.png","ghost age comps, whole catch, NWFSC","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_gstagefit_residsflt8mkt0.png","Pearson residuals, whole catch, NWFSC (max=NA) <br> 
+Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).","AgeComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_residsflt8mkt0_page1.png","Pearson residuals, whole catch, NWFSC (max=36.24) (plot 1 of 3)","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_residsflt8mkt0_page2.png","Pearson residuals, whole catch, NWFSC (max=36.24) (plot 2 of 3)","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_residsflt8mkt0_page3.png","Pearson residuals, whole catch, NWFSC (max=36.24) (plot 3 of 3)","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_data_weighting_TA1.8_condAgeNWFSC.png","Francis data weighting method TA1.8 for conditional age data NWFSC <br>For more info, see<br> <blockquote>Francis, R.I.C.C. (2011). Data weighting in statistical fisheries stock assessment models. <i>Can. J. Fish. Aquat. Sci.</i> 68: 1124-1138.</blockquote>","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_Andre_plotsflt8mkt0_page1.png","Conditional AAL plot, whole catch, NWFSC (plot 1 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_Andre_plotsflt8mkt0_page2.png","Conditional AAL plot, whole catch, NWFSC (plot 2 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_Andre_plotsflt8mkt0_page3.png","Conditional AAL plot, whole catch, NWFSC (plot 3 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//comp_condAALfit_Andre_plotsflt8mkt0_page4.png","Conditional AAL plot, whole catch, NWFSC (plot 4 of 4)
+These plots show mean age and std. dev. in conditional A@L.<br>Left plots are mean A@L by size-class (obs. and pred.) with 90% CIs based on adding 1.64 SE of mean to the data.<br>Right plots in each pair are SE of mean A@L (obs. and pred.) with 90% CIs based on the chi-square distribution.","A@LComp",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/yield1_yield_curve.png","Yield curve","Yield",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots/yield2_Hilborn_surplus_production.png","Surplus production plot. For interpretation, see<br> <blockquote>Walters, Hilborn, and  Christensen, 2008, Surplus production dynamics in declining and recovering fish populations. <i>Can. J. Fish. Aquat. Sci.</i> 65: 2536-2551.</blockquote>","Yield",2015-08-11 20:31:48
+"Models/7.08_Widow2015_STARbase/plots//data_plot.png","Data presence by year for each fleet","Data",2015-08-11 20:31:48
