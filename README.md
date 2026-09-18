@@ -90,49 +90,53 @@ Upon successful completion of the course, students will be able to:
 
 Students will work as a team to:
 
-1.  Run the update stock assessment model and sensitivities.
+1.  Run the update stock assessment model and complete a set of required model diagnostics.
 
 2.  Build decision tables to provide catch advice to managers.
 
-3.  Report results through a document and presentations.
+3.  Communicate results through a written report and presentations.
 
-Students will focus on running the stock assessment model under different configurations, ensuring model convergence, interpreting and comparing results and underlying assumptions, and documenting the stock assessment update in a document and presentations before the PFMC’s Scientific and Statistical Committee’s Groundfish Subcommittee. The PFMC’s Scientific and Statistical Committee and its Groundfish Subcommittee will review the update stock assessment.
+Students will focus on running the stock assessment model under different configurations and underlying assumptions, ensuring model convergence, interpreting and comparing results, and documenting the stock assessment update in an assessment report and presentations before the PFMC’s Scientific and Statistical Committee’s Groundfish Subcommittee. The PFMC’s Scientific and Statistical Committee and its Groundfish subcommittee review the update stock assessment.
 
 ### Learning goals:
 
 Upon successful completion of the course, students will be able to:
 
-1.  Read, understand and revise Stock Synthesis input files.
+1.  Read, understand and modify Stock Synthesis and FIMS input files.
 
-2.  Modify Stock Synthesis input files to reflect sensitivity runs, and run them.
+2.  Produce model results and plots from model outputs.
 
-3.  Run likelihood profiles in Stock Synthesis
+3.  Run model diagnostics, such as likelihood profiles, sensitivity and retrospective analyses.
 
-4.  Produce forecasts using Stock Synthesis.
+4.  Develop assessment model forecasts, for use in management.
 
-5.  Run R4SS software to produce plots from Stock Synthesis output.
+5.  Write a detailed stock assessment report.
 
-6.  Write an updated stock assessment report.
-
-7.  Present stock assessment results to the PFMC.
+6.  Present stock assessment results to the PFMC and potentially other stake holders.
 
 ### Schedule:
 
 | **Week** | **Topics**                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------|-----------------------------------------------------------|
-| 1        | Review data topics from Applied Stock Assessment I                                                                                                                                                                                                                                                                                                                                                                             |
-|          | Documentation for update stock assessments                                                                                                                                                                                                                                                                                                                                                                                     |
-|          | Overview of R markdown document preparation                                                                                                                                                                                                                                                                                                                                                                                    |
-| 2        | Model bridging: Run a set of models transitioning from the previous assessment model to the current by updating one new piece of data at a time and running the model. Plot comparisons of the previous assessment outputs with each subsequent model runs until each dataset has been updated. Produce a full set of r4ss output for the fully updated model.                                                                 |
-| 3        | Risk neutrality and the science/management interface                                                                                                                                                                                                                                                                                                                                                                           |
-|          | Retrospective analysis: Complete 5-year retrospective runs.                                                                                                                                                                                                                                                                                                                                                                    |
-|          | Model convergence diagnostics, jittering.                                                                                                                                                                                                                                                                                                                                                                                      |
+| 1        | Review data topics from Applied Stock Assessment I                                                                                                                            |
+|          | Documentation for update stock assessments                                                                                                                                    |
+|          | Overview of  asar document preparation process                                                                                                                                |
+|          | Overview of diagnostics to be complete                                                                                                                                        |
+| 2        | Model bridging: Run a set of models transitioning from the previous assessment model to the current by updating one new piece of data at a time and running the model. Plot comparisons of the previous assessment outputs with each subsequent model runs until each dataset has been updated. Produce a full set of R4SS output for the fully updated model.                                                                  |
+| 3        | Model convergence diagnostics, jittering                                                                                                                                      |
+|          | Retrospective analysis: Complete 5-year retrospective runs                                                                                                                    |
+|          | Generate assessment report template and start writing the stock assessment document                                                                                           |
 | 4        | Sensitivity analysis: Produce a set of model runs that include 1) model sensitivities from the last full (and any subsequent update) assessment, 2) any issues noted in the STAR or SSC reports, 3) runs that you are interested in completing, including any sensitivities that seem important given changes in parameter estimates in the update base model compared to the last model. Plot results against the base model. |
-| 5        | Likelihood profiles: Complete likelihood profiles that were included in the last full assessment.                                                                                                                                                                                                                                                                                                                              |
-| 6        | Management history/changes in management                                                                                                                                                                                                                                                                                                                                                                                       |
-|          | Harvest Projections: Complete harvest projections and decision tables as included in the last full assessment.                                                                                                                                                                                                                                                                                                                 |
-| 7        | Update stock assessment document preparation - NMFS internal review deadline (May19)                                                                                                                                                                                                                                                                                                                                           |
-| 8        | Update stock assessment document preparation                                                                                                                                                                                                                                                                                                                                                                                   |
-| 9        | Update stock assessment document preparation - PFMC briefing book deadline for documents (May 26)                                                                                                                                                                                                                                                                                                                              |
-| 10       | Prepare and practice presentations for the PFMC SSC                                                                                                                                                                                                                                                                                                                                                                            |
-|          | SSC GF review meeting (June 11, meeting is in Rohnert Park, CA but virtual connection will be available)                                                                                                                                                                                                                                                                                                                       |
+                                                                                                                                                                                           |
+|          | Complete Introduction, Data and Model Description sections of the assessment document                                                                                         |
+| 5        | Likelihood profiles: Complete likelihood profiles that were included in the last full assessment                                                                              |
+|          | Complete Model Diagnostics section of the assessment document                                                                                                                 |
+| 6        | Management history/changes in management                                                                                                                                      |
+|          | Risk neutrality and the science/management interface                                                                                                                          |
+|          | Harvest Projections: Complete harvest projections and decision tables as included in the last full assessment.                                                                |
+|          | Complete Executive Summary of the assessment document                                                                                                                         |
+| 7        | Complete stock assessment document for instructors’ review                                                                                                                    |
+| 8        | Complete stock assessment document for NMFS/PFMC internal review deadline                                                                                                     |
+| 9        | Complete stock assessment document for  PFMC briefing book deadline for the SSC review                                                                                        |
+| 10       | Prepare and practice presentation for the PFMC’s SSC Groundfish Subcommittee review meeting                                                                                   |
+| Final week   | Present update stock assessment to the PFMC’s Scientific and Statistical Committee’s Groundfish Subcommittee                                                              |
