@@ -4,9 +4,9 @@ This is a repository for the 2027 applied stock assessment course at the Univers
 
 ## How this repository works:
 
-This repository contains lectures, example code, and background reading materials for both courses. Materials will be added as the course progresses.
+This repository contains lectures, background reading materials, and example code for both courses. Materials will be added as the course progresses.
 
-Please ensure you have a github handle and are subscribed to announcements under [discussions](https://github.com/okenk/Assessment_Class/discussions/categories/announcements). Github announcements will be our primary way of communicating with you as it allows students who drop the course to opt out, and students who start the course late to catch up on old communications. **Either check the github announcements regularly or ensure you are getting email alerts for new announcements.**
+Instructors will use GitHub announcements as a primary way of communicating with students. Therefore, please subscribe to announcements under [discussions](https://github.com/okenk/Assessment_Class/discussions/categories/announcements).  **Either check the GitHub announcements regularly or ensure you are getting email alerts for new announcements.**
 
 Feel free to also use discussions to communicate with your fellow classmates and the instructors!
 
@@ -23,7 +23,7 @@ Applied Stock Assessment I and II are a two-quarter applied stock assessment ser
 
 This is a hybrid course, with in-person and virtual participation available. In person, we will meet at UW in FSH 105. For online login information, contact the instructors.
 
-## Scheduled course times (subject to change based on participant schedules): 
+## Scheduled course times: 
 
 Tuesdays 11:00am-11:50am and Thursdays 10:30am-11:20am
 
