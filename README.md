@@ -12,8 +12,8 @@ Feel free to also use discussions to communicate with your fellow classmates and
 
 ## Instructors:
 
--   Vladlena Gertseva, NWFSC ([vladlena.gertseva\@noaa.gov](mailto:vladlena.gertseva@noaa.gov), [\@gertsevv](https://github.com/gertsevv))
--   Ian Taylor, NWFSC ([ian.taylor\@noaa.gov](mailto:ian.taylor@noaa.gov), [\@iantaylor-NOAA](https://github.com/iantaylor-NOAA))
+-   Dr. Vladlena (Vlada) Gertseva, NWFSC ([vladlena.gertseva\@noaa.gov](mailto:vladlena.gertseva@noaa.gov), [\@gertsevv](https://github.com/gertsevv))
+-   Dr. Ian Taylor, NWFSC ([ian.taylor\@noaa.gov](mailto:ian.taylor@noaa.gov), [\@iantaylor-NOAA](https://github.com/iantaylor-NOAA))
 
 ## Overview:
 
@@ -31,25 +31,27 @@ Tuesdays 11:00am-11:50am and Thursdays 10:30am-11:20am
 
 Students will work as a team to:
 
-1.  Review assessment documents, STAR reports, and identify new literature
+1. Learn about the fisheries management system in the U.S. West Coast; review assessment documents, stock assessment review (STAR) reports, and identify new relevant literature.
 
-2.  Work up data for the update assessments
+2.  Become acquainted with Stock Synthesis and FIMS.
 
-3.  Update data as each data source is finalized
+3.  Work up data for the update stock assessments for each data source.
 
-4.  Begin work on producing an update stock assessment that involves updating and adding recent data from all data sources used in the previously reviewed stock assessment adopted for management.
+4.  Begin producing an update assessment that involves updating and adding recent data from all data sources used in the previously reviewed stock assessment adopted for management.
 
 ### Learning goals:
 
 Upon successful completion of the course, students will be able to:
 
-1.  Evaluate and process length and age composition data and fishery-independent indices.
+1.  Evaluate and process fishery catch and survey index data..
 
-2.  Evaluate and process survey index data.
+2.  Evaluate and process length and age composition data..
 
-3.  Run existing Stock Synthesis models and replace or extend data in input files for catch, indices, composition, discard, and environmental data.
+3.  Run existing Stock Synthesis model and replace or extend data in input files for catch, indices, composition, discard, and environmental data.
 
-4.  Understand basic modeling assumptions and when they might be violated.
+4.  Explore current features and start running the FIMS model
+
+5.  Understand basic modeling assumptions and when they might be violated.
 
 ### Schedule:
 
@@ -60,26 +62,29 @@ Upon successful completion of the course, students will be able to:
 |          | Introduction to git/github and class resources                                                                                         |
 |          | Overview of data sources,non-disclosure forms, data preparation tasks for update assessments                                           |
 |          | Review update assessment TORs                                                                                                          |
-| 2        | WCGBTS/triennial/juvenile rockfish survey background and index standardization                                                         |
+| 2        | Population modeling and assumptions, Integrated analysis,                                                                              |
+|          | SS3 introduction, overview of SS3 input files                                                                                          |
+|          | Working with SS3 input files: formatting, processing and debugging                                                                     |
+|          | R4SS                                                                                                                                   |
+| 3        | Introduction to FIMS                                                                                                                   |
+|          | Overview of FIMS current and future features, FIMS resources                                                                           |
+| 4        | WCGBTS/triennial survey background and index standardization                                                                           |
 |          | Survey compositional data                                                                                                              |
 |          | WCGBTS compositional data preparation, overview of nwfscSurvey code                                                                    |
-| 3        | Fishery landings, PacFIN overview                                                                                                      |
+| 5        | Fishery landings, PacFIN overview                                                                                                      |
 |          | Fishery discards, WCGOP overview                                                                                                       |
-| 4        | Fishery retained and discarded ages and lengths                                                                                        |
-|          | PacFIN biological data processing and preparation using PacFIN.Utilities                                                               |
-| 5        | Biological data and parameters estimated outside the model – Weight-Length, Maturity, Fecundity, Sex Ratios, Ageing precision and bias |
-| 6        | Population modeling and assumptions, Integrated analysis,                                                                              |
-|          | SS3 introduction, overview of SS3 input files                                                                                          |
-|          | R4SS                                                                                                                                   |
-| 7        | Modeling parameters in SS3                                                                                                             |
-|          | Natural mortality and growth in SS3                                                                                                    |
-|          | Initial conditions and fishing mortality in SS3                                                                                        |
-|          | Recruitment, catchability and selectivity in SS3                                                                                       |
-| 8        | Working with SS3 input files: formatting, processing and debugging                                                                     |
+| 6        | Fishery retained and discarded ages and lengths                                                                                        |
+|          | PacFIN biological data processing and preparation using pacfintools                                                                    |
+| 7        | Biological data and parameters estimated outside the model – Weight-Length, Maturity, Fecundity, Sex Ratios, Ageing precision and bias |
+|          | Recruitment index based on oceanographic data                                                                                          |
+| 8        | Modeling parameters                                                                                                                    |
+|          | Natural mortality and growth                                                                                                           |
+|          | Initial conditions and fishing mortality                                                                                               |
+|          | Recruitment, catchability and selectivity                                                                                              |
 | 9        | Finalize data preparation                                                                                                              |
-|          | Start running models                                                                                                                   |
-| 10       | Data weighting in SS3                                                                                                                  |
-|          | Formulate a proposed base model                                                                                                        |
+|          | Data weighting                                                                                                                         |
+| 10       |  Formulate a proposed base model                                                                                                       |
+| Final week    | Present proposed base model in SS3, and FIMS parallel model                                                                       |
 
 ## FISH 577: Applied Stock Assessment II
 
