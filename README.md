@@ -1,12 +1,6 @@
 # FISH 576 & 577: Applied Stock Assessment I & II
 
-This is a repository for the 2025 applied stock assessment course at the University of Washington. 
-
-## IMPORTANT DEADLINES:
-
-- May 14, 2025: Send a near-to-final draft report to instructors
-- May 21, 2025: Internal review deadline
-- June 11, 2025: Groundfish subcommittee of the SSC review in Rohnert Park, CA and online
+This is a repository for the 2027 applied stock assessment course at the University of Washington. 
 
 ## How this repository works:
 
@@ -19,10 +13,7 @@ Feel free to also use discussions to communicate with your fellow classmates and
 ## Instructors:
 
 -   Vladlena Gertseva, NWFSC ([vladlena.gertseva\@noaa.gov](mailto:vladlena.gertseva@noaa.gov), [\@gertsevv](https://github.com/gertsevv))
--   Kiva Oken, NWFSC ([kiva.oken\@noaa.gov](mailto:kiva.oken@noaa.gov), [\@okenk](https://github.com/okenk))
 -   Ian Taylor, NWFSC ([ian.taylor\@noaa.gov](mailto:ian.taylor@noaa.gov), [\@iantaylor-NOAA](https://github.com/iantaylor-NOAA))
--   Melissa Haltuch, AFSC ([melissa.haltuch\@noaa.gov](mailto:melissa.haltuch@noaa.gov), [\@melissahaltuch-NOAA](https://github.com/melissahaltuch-NOAA))
--   Owen Hamel, NWFSC ([owen.hamel\@noaa.gov](mailto:owen.hamel@noaa.gov), [\@owenhamel](https://github.com/owenhamel))
 
 ## Overview:
 
