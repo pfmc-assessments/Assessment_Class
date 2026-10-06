@@ -1,6 +1,6 @@
 # FISH 576 & 577: Applied Stock Assessment I & II
 
-This is a repository for the 2027 applied stock assessment course at the University of Washington. 
+This is a repository for the 2027 Applied Stock Assessment course at the University of Washington. 
 
 ## How this repository works:
 
@@ -17,7 +17,9 @@ Feel free to also use discussions to communicate with your fellow classmates and
 
 ## Overview:
 
-Applied Stock Assessment I and II are a two-quarter applied stock assessment series offered in collaboration with stock assessment scientists in the Fishery Resource Analysis and Monitoring Division at the Northwest Fisheries Science Center. The first course provides a brief review of population dynamic modeling basics and stock assessment data types, and then focuses on the details of processing fishery and survey data to develop a stock assessment update using Stock Synthesis (SS3) modeling platform. The second course focuses on developing, running, evaluating and documenting the Stock Synthesis (SS3) models required for a stock assessment update submitted to the Pacific Fishery Management Council (PFMC) for use in management. This year, the course also introduces the Fisheries Integrated Modeling System (FIMS), a next-generation stock assessment framework, to run the FIMS model in parallel with SS3, to help with future transition to FIMS.  
+Applied Stock Assessment I and II are a two-quarter applied stock assessment series offered in collaboration with stock assessment scientists in the Fishery Resource Analysis and Monitoring Division at the Northwest Fisheries Science Center. The first course provides a brief review of population dynamic modeling basics and stock assessment data types, and then focuses on the details of processing fishery and survey data to develop a stock assessment update using Stock Synthesis (SS3) modeling platform. The second course focuses on developing, running, evaluating and documenting the Stock Synthesis (SS3) models required for a stock assessment update submitted to the Pacific Fishery Management Council (PFMC) for use in management. 
+
+This year, the course also introduces the Fisheries Integrated Modeling System (FIMS), a next-generation stock assessment framework, to run the FIMS model in parallel with SS3, to help with future transition to FIMS.  
 
 ## Course format:
 
